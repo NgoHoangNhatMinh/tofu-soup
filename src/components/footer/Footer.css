@@ -1,0 +1,11 @@
+.FooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.FooterContainer nav {
+    display: flex;
+    gap: 2rem;
+}

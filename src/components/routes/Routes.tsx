@@ -1,5 +1,6 @@
 import App from "../../App";
 import Home from "../home/Home";
+import IndexProducts from "../product/IndexProducts";
 
 const routes = [
     {
@@ -10,6 +11,10 @@ const routes = [
                 index: true,
                 element: <Home/>
             },
+            {
+                path: "/products",
+                element: <IndexProducts/>
+            }
         ]
     }
 ];

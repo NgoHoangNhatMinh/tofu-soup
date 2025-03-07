@@ -1,0 +1,11 @@
+.HeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeaderContainer nav {
+    display: flex;
+    gap: 2rem;
+}
