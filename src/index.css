@@ -69,6 +69,11 @@ button:focus-visible {
 
 /* NEW CSS STYLES */
 
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   background-image: url(./assets/background.PNG);
 }
